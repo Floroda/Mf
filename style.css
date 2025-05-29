@@ -1,0 +1,201 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.dashboard {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background: gold;
+  color: #000;
+  padding: 10px;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.icon-with-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.bell-container {
+  position: relative;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -8px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: bold;
+  user-select: none;
+}
+
+.bell-container {
+  position: relative;
+  padding: 20px;
+  margin: 24px;
+  color: #333;
+
+}
+
+.badge {
+  position: absolute;
+  top: -6px;
+  right: -10px;
+  background: red;
+  color: #fff;
+  font-size: 10px;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+.balance {
+margin: 20px 0;
+}
+
+.highlight {
+  color: teal;
+}
+
+.qr-section {
+  text-align: center;
+  background: #ffeb3b;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.quick-actions button {
+  background: gold;
+  border: none;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-money {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+
+.bottom-nav {
+  position: fixed;
+  bottom: 20px; /* Adds spacing from bottom edge */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%; /* Keeps it centered and not full-width */
+  max-width: 500px; /* Optional: limits width on large screens */
+  background: #222;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Adds depth */
+  z-index: 1000;
+}
+.bottom-nav button {
+  background: none;
+  color: white;
+  border: none;
+  font-size: 16px;
+}
+.floating-btn {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  background: orange;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  font-weight: bold;
+}
+
+.container {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.title {
+  text-align: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 12px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.service {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.service:hover {
+  transform: scale(1.05);
+}
+
+.service span {
+  display: block;
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+
+
+
